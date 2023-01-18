@@ -4,6 +4,8 @@ public class HelloWorld
 {
     public static void Main(string[] args)
     {
+        string wwe;
+        do{
         int num;
         int result=0;
         int rem;
@@ -14,6 +16,9 @@ public class HelloWorld
             result=result*10+rem;
             num=num/10;
         }
-        Console.WriteLine(result);
+        Console.WriteLine("reversed:"+" "+result);
+        Console.WriteLine("If you want to continue: Press Y for yes and Press N for No");
+        wwe=Console.ReadLine();
+        }while(wwe=="y"||wwe=="Y");
     }
 }
