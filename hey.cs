@@ -1,6 +1,6 @@
 using System;
 public class Program{
-    public static void main(){
+    public static void Main(){
         string s1="Suman";
         string s2="Khanal";
         Console.WriteLine(String.Concat(s1,s2));
