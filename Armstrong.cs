@@ -7,7 +7,7 @@ public class HelloWorld
 {
     public static void Main(string[] args)
     {
-        int num=153;
+        int num=173;
         int result=0;
         int cube;
         int rem;
