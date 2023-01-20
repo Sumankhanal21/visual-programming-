@@ -8,7 +8,7 @@ public class HelloWorld
     {
        int num;
        Console.Write("Enter any number to check odd or even:");
-       num=int.Parse(Console.ReadLine());
+       num=Convert.ToInt32(Console.ReadLine());
        if(num%2==0){
            Console.Write("Even Number");
        }
