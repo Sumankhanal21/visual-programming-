@@ -1,4 +1,4 @@
-//Write a C  sharp program to calculate sum of n-natural number.
+//Write a C#  sharp program to calculate sum of n-natural number.
 
 using System;
 
