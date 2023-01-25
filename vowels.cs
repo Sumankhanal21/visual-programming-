@@ -15,7 +15,7 @@ public class HelloWorld
              vowel++;
           }
       }
-    Console.WriteLine("There are "+" " +vowel+" "+" vowels in the word"+" "+letter);
+    Console.WriteLine("There are "+" " +vowel+" "+" vowels letters in the word"+" "+letter);
         
         }
     }
