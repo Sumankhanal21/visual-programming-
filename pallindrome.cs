@@ -14,10 +14,10 @@ public class HelloWorld
             num=num/10;
         }
         if(temp==result){
-            Console.WriteLine(temp+": is a pallindrome number");
+            Console.WriteLine(temp+": is a palindrome number");
         }
         else{
-            Console.WriteLine(temp+": is not a pallindrome number");
+            Console.WriteLine(temp+": is not a palindrome number");
         }
     }
 }
