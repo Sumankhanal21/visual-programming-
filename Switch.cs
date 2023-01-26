@@ -5,7 +5,7 @@ public class HelloWorld
 {
     public static void Main(string[] args)
     {
-        string cont;
+        string conti;
         do{
        int num1;
        int num2;
@@ -39,8 +39,8 @@ public class HelloWorld
            break;
        }
        Console.WriteLine("If you want to continue press Y for yes and Press N for No");
-       cont=Console.ReadLine();
-        }while(cont=="y"||cont=="Y");
+       conti=Console.ReadLine();
+        }while(conti=="y"||conti=="Y");
        
     }
 }
