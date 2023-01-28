@@ -1,7 +1,7 @@
 using System;
 public class Pro{
     public static void Main(){
-        string[] ans={"False","1","//This is comment","2","string","double x=2.8D;","Length","True"};
+        string[] ans={"False","1","//This is comment","2","string","double x=2.8D;","Length","True","MyMethod()","MyMethod();"};
         Console.WriteLine("Welcome to the c# quiz");
         Console.WriteLine("...........................");
         Console.WriteLine("C# is an alias of c++ : 1.True 2.False");
@@ -82,10 +82,30 @@ public class Pro{
                         wrong -=1;
                 Console.WriteLine("Incorrect");
         }
+        Console.WriteLine("How do you create a method in c# :  1.MyMethod()  2.My.Method");
+        string h=Console.ReadLine();
+        if(h==ans[1]||h==ans[8]){
+                point +=1;
+        }
+        else{
+                point -=1;
+                Console.WriteLine("Wrong");
+        }
+        Console.WriteLine("How do you call a method in c# :  1.MyMethod();  2.My.Method");
+        string i=Console.ReadLine();
+        if(i==ans[1]||i==ans[9]){
+                point +=1;
+        }
+        else{
+                point -=1;
+                Console.WriteLine("Wrong");
+        }
+
+
         Console.WriteLine("The total Correct point is :"+point);
         Console.WriteLine("The total mistakes is :"+wrong);
         int total=point+wrong;
-        Console.WriteLine("The total point you archive:"+total);
+        Console.WriteLine("The total point you achieve:"+total);
 
 
     }
