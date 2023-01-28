@@ -1,7 +1,7 @@
 using System;
 public class Pro{
     public static void Main(){
-        string[] ans={"False","1","//This is comment","2","string","double x=2.8D;","Length","True","MyMethod()","MyMethod();"};
+        string[] ans={"False","1","//This is comment","2","string","double x=2.8D;","Length","True","MyMethod()","MyMethod();","[]","3"};
         Console.WriteLine("Welcome to the c# quiz");
         Console.WriteLine("...........................");
         Console.WriteLine("C# is an alias of c++ : 1.True 2.False");
@@ -63,7 +63,7 @@ public class Pro{
 
                Console.WriteLine("The value of a string variable can be surrounded by single quotes : 1.True   2.False");
        string f= Console.ReadLine();
-              if(f==ans[0]||f==ans[4]){
+              if(f==ans[0]||f==ans[3]){
         Console.WriteLine("Correct");
                         point +=1;
        }
@@ -85,19 +85,31 @@ public class Pro{
         Console.WriteLine("How do you create a method in c# :  1.MyMethod()  2.My.Method");
         string h=Console.ReadLine();
         if(h==ans[1]||h==ans[8]){
+            Console.WriteLine("Correct");
                 point +=1;
         }
         else{
-                point -=1;
+                wrong -=1;
                 Console.WriteLine("Wrong");
         }
         Console.WriteLine("How do you call a method in c# :  1.MyMethod();  2.My.Method");
         string i=Console.ReadLine();
         if(i==ans[1]||i==ans[9]){
+                Console.WriteLine("Correct");
                 point +=1;
         }
         else{
-                point -=1;
+                wrong -=1;
+                Console.WriteLine("Wrong");
+        }
+       Console.WriteLine("To declare an array in C#, define the variable type with: 1.{}   2.()   3.[]");
+       string j=Console.ReadLine();
+       if(j==ans[11]||j==ans[10]){
+                point +=1;
+                Console.WriteLine("Correct");
+        }
+        else{
+                wrong -=1;
                 Console.WriteLine("Wrong");
         }
 
