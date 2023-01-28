@@ -3,7 +3,7 @@ public class Pro{
     public static void Main(){
         string[] ans={"False","1","//This is comment","2","string","double x=2.8D;","Length","True"};
         Console.WriteLine("Welcome to the c# quiz");
-        Console.WriteLine("..........................");
+        Console.WriteLine("...........................");
         Console.WriteLine("C# is an alias of c++ : 1.True 2.False");
         string a=Console.ReadLine();
         if(a==ans[0]||a==ans[3]){
