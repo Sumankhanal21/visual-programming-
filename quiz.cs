@@ -4,7 +4,7 @@ public class Pro{
         string[] ans={"False","1","//This is comment","2","string","double x=2.8D;","Length","True","MyMethod()","MyMethod();","[]","3","The+sign"};
         Console.WriteLine("Welcome to the c# quiz");
         Console.WriteLine("...........................");
-        Console.WriteLine("C# is an alias of c++ : 1.True 2.False");
+        Console.WriteLine("C# is an alias of c++ : 1.True  2.False");
         string a=Console.ReadLine();
         int point=0;
         int wrong=0;
