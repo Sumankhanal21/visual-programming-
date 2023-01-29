@@ -1,7 +1,7 @@
 using System;
 public class Pro{
     public static void Main(){
-        string[] ans={"False","1","//This is comment","2","string","double x=2.8D;","Length","True","MyMethod()","MyMethod();","[]","3"};
+        string[] ans={"False","1","//This is comment","2","string","double x=2.8D;","Length","True","MyMethod()","MyMethod();","[]","3","The+sign"};
         Console.WriteLine("Welcome to the c# quiz");
         Console.WriteLine("...........................");
         Console.WriteLine("C# is an alias of c++ : 1.True 2.False");
@@ -100,7 +100,7 @@ public class Pro{
         }
         else{
                 wrong -=1;
-                Console.WriteLine("Wrong");
+                Console.WriteLine("Incorrect");
         }
        Console.WriteLine("To declare an array in C#, define the variable type with: 1.{}   2.()   3.[]");
        string j=Console.ReadLine();
@@ -110,8 +110,19 @@ public class Pro{
         }
         else{
                 wrong -=1;
-                Console.WriteLine("Wrong");
+                Console.WriteLine("Incorrect");
         }
+                Console.WriteLine("Which operator is used to add together two values : 1.The&sign  2.The+sign");
+        string k=Console.ReadLine();
+         if(k==ans[12]||k==ans[3]){
+                point +=1;
+                Console.WriteLine("Correct");
+        }
+        else{
+                wrong -=1;
+                Console.WriteLine("Incorrect");
+
+
 
 
         Console.WriteLine("The total Correct point is :"+point);
@@ -121,4 +132,5 @@ public class Pro{
 
 
     }
+}
 }
