@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\Suman\.vscode\obj\Debug\net7.0\Suman.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Suman\.vscode\obj\Debug\net7.0\Suman.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Suman\.vscode\obj\Debug\net7.0\Suman.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Suman\.vscode\obj\Debug\net7.0\Suman.AssemblyInfo.cs
+C:\Users\user\Desktop\Suman\.vscode\obj\Debug\net7.0\Suman.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Suman\.vscode\bin\Debug\net7.0\Suman.exe
+C:\Users\user\Desktop\Suman\.vscode\bin\Debug\net7.0\Suman.deps.json
+C:\Users\user\Desktop\Suman\.vscode\bin\Debug\net7.0\Suman.runtimeconfig.json
+C:\Users\user\Desktop\Suman\.vscode\bin\Debug\net7.0\Suman.dll
+C:\Users\user\Desktop\Suman\.vscode\bin\Debug\net7.0\Suman.pdb
+C:\Users\user\Desktop\Suman\.vscode\obj\Debug\net7.0\Suman.dll
+C:\Users\user\Desktop\Suman\.vscode\obj\Debug\net7.0\refint\Suman.dll
+C:\Users\user\Desktop\Suman\.vscode\obj\Debug\net7.0\Suman.pdb
+C:\Users\user\Desktop\Suman\.vscode\obj\Debug\net7.0\Suman.genruntimeconfig.cache
+C:\Users\user\Desktop\Suman\.vscode\obj\Debug\net7.0\ref\Suman.dll
