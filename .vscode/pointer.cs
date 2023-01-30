@@ -2,11 +2,12 @@ using System;
 public class Point{
     public static void Main(){
         unsafe{
-            int a=5;
-            int*b=&a;
-            Console.WriteLine("Value : "+*b);
-            Console.WriteLine("Address : "+(int)b);
-            
+          string str="Suman";
+          fixed(char*pt=str){
+            for(int i=0;i<str.Length;i++){
+                Console.WriteLine("Address:"+(int)pt+1);
+            }
+          }
         }
     }
 }
