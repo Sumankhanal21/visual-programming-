@@ -26,3 +26,4 @@ connection.Close();
         }
     }
 }
+To run the code : dotnet run -project MyProject
